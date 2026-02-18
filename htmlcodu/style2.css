@@ -1,0 +1,25 @@
+body{
+    background-image: url(mesh.png);
+}
+
+h1{
+    color: aliceblue;
+    margin-left: 150px;
+    font-size: 35px;
+}
+
+#koloda{
+    width: 500px;
+    border-radius: 20px;
+}
+
+#sulka{
+    text-decoration: none;
+    color:aliceblue;
+    display: flex;
+    margin: 20px;
+    background-color: black;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}

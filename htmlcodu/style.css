@@ -1,0 +1,180 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url("mesh.png");
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+#h1{
+    font-size: 40px;
+    width:fit-content;
+    margin-left: 20px;
+    padding: 10px;
+    color: rgb(165, 169, 157);
+    background: rgba(255, 255, 255, 0.1);  
+    backdrop-filter: blur(10px);           
+    border: 1px solid rgba(255, 255, 255, 0.2);  
+    border-radius: 15px;    
+}
+
+
+#photo1{
+    border-radius: 15px;
+}
+
+#maintext {
+    padding: 30px;
+    margin: 20px; 
+    width: fit-content;
+    font-size: 34px;
+    color: rgb(165, 169, 157);
+    background: rgba(255, 255, 255, 0.1);  
+    backdrop-filter: blur(10px);           
+    border: 1px solid rgba(255, 255, 255, 0.2);  
+    border-radius: 15px;                     /* тень */
+}
+
+#namee {
+    display: flex;
+    gap: 90px;
+    margin-left: 350px; 
+    margin-top: -290px;   
+}
+#surnamee{
+    display: flex;
+    gap: 40px;
+    margin-top: -50px;
+    margin-left: 350px;
+}
+#nomber{
+    display: flex;
+    margin-top: -50px;
+    margin-left: 350px;
+    gap: 50px;
+}
+#email{
+    display: flex;
+    gap: 86px;
+    margin-top: -50px;
+    margin-left: 350px;
+}
+
+
+#spis{
+    display: flex;
+}
+
+#listblock{
+    margin-top: 20px;
+    padding: 15px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 15px;
+    color: rgb(165, 169, 157);
+    background: rgba(255, 255, 255, 0.1);  
+    backdrop-filter: blur(10px);           
+    border: 1px solid rgba(255, 255, 255, 0.2);  
+}
+
+#listblock h3{
+    margin-left: -15px;
+    font-size: 27px;
+}
+
+#listblock li {
+    margin-bottom: 15px;
+    font-size: 22px;   
+    padding-left: 20px;
+}
+
+
+
+
+
+#ssulki{
+    display: flex;
+    gap: 15px;
+}
+
+.socseti{
+    margin-left: 20px;
+    padding: 5px 10px;
+    width: fit-content; 
+    background: rgba(255, 255, 255, 0.1);  
+    backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;                     
+}
+.socseti a {
+    color: aliceblue;
+    display: flex;
+    gap:10px;
+    text-decoration: none;  /* убирает подчеркивание у ссылок */
+}
+
+
+.icon{
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+#infotext{
+    width: fit-content;
+font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.1);  
+    backdrop-filter: blur(10px);           
+    border: 1px solid rgba(255, 255, 255, 0.2);  
+    border-radius: 15px;  
+}
+#obrh{
+    font-size:30px;
+}
+
+.obrinfo a{
+    color: black;
+}
+
+
+#kolod{
+    color: aliceblue;
+    width: fit-content;
+    padding: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.1);  
+    backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px; 
+}
+
+
+
+
+
+#footer {
+    margin-top: auto;
+    color: white;
+    background-color: black;
+    height: 50px;       
+}
+#footertext{
+    margin-left: 39%;
+    margin-top: 7px;
+}
